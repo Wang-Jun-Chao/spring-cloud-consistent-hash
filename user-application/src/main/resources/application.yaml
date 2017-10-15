@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: user-service
+
+server:
+  port: 8888
+
+hello-service:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:7070,localhost:8080,localhost:9090
+    ServerListRefreshInterval: 15000
+
+debug: true

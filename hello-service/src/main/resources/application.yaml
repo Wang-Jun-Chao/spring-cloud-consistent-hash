@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: hello-service
+
+---
+spring:
+  profiles: 8080
+server:
+  port: 8080
+
+---
+spring:
+  profiles: 9090
+server:
+  port: 9090
+
+---
+spring:
+  profiles: 7070
+server:
+  port: 7070

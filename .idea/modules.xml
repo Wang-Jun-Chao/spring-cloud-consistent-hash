@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloud一致性Hash负载匀衡.iml" filepath="$PROJECT_DIR$/SpringCloud一致性Hash负载匀衡.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-service/hello-service.iml" filepath="$PROJECT_DIR$/hello-service/hello-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-application/user-application.iml" filepath="$PROJECT_DIR$/user-application/user-application.iml" />
+    </modules>
+  </component>
+</project>
