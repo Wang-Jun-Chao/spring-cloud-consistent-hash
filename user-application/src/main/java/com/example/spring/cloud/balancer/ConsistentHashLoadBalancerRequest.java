@@ -12,7 +12,7 @@ import org.springframework.http.client.ClientHttpResponse;
  * Github: https://github.com/wang-jun-chao
  * All Rights Reserved !!!
  */
-public class ConsistentHashLoadBalancerRequest implements LoadBalancerRequest<ClientHttpResponse> {
+public  abstract  class ConsistentHashLoadBalancerRequest implements LoadBalancerRequest<ClientHttpResponse> {
     HttpRequest request;
 
     public ConsistentHashLoadBalancerRequest() {
@@ -29,15 +29,5 @@ public class ConsistentHashLoadBalancerRequest implements LoadBalancerRequest<Cl
     public void setRequest(HttpRequest request) {
         this.request = request;
     }
-
-
-    //////////////////////
-    // override
-    //////////////////////
-    @Override
-    public ClientHttpResponse apply(ServiceInstance instance) throws Exception {
-        return null;
-    }
-
 
 }

@@ -36,9 +36,6 @@ public class ConsistentHashLoadBalancer<T extends Server> extends ZoneAwareLoadB
 
     @Override
     public Server chooseServer(Object key) {
-
-
-
         return super.chooseServer(key);
     }
 
